@@ -1,0 +1,82 @@
+.timeline {
+  border: 2px solid #999;
+  border-radius: 0.2rem;
+  background: linear-gradient(to right, #BEC0C2, #B3B6B5, #7D7D7A)
+}
+
+.timeline > p:first-child {
+  padding-top: 2.4rem;
+  padding-bottom: 0;
+  margin-left: 2rem;
+  text-align: center;
+  margin: 0;
+}
+
+.timeline .inner {
+  width: 0.5rem;
+  background: #999;
+  padding-top: 2rem;
+  margin-left: 3rem;
+  margin: 0 auto;
+}
+
+.button {
+  box-shadow: 0 0 2rem 0.2rem rgba(0,0,0,0.3);
+  color: black;
+  text-decoration: none;
+  background: rgb(222,170,255) ;
+  border: 2px solid #999;
+  border-radius: 0.2rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+.button:hover {
+  color: white;
+  background: lightblue;
+  
+}
+
+.timeline ul li + li {
+  padding-top: 0.5rem;
+}
+
+.timeline article {
+  position: relative;
+  width: 40vw;
+  padding: 0 1rem 1rem 3rem;
+  
+}
+
+.timeline article header h3 {
+  margin-top: 0;
+  font-style: italic;
+}
+
+.timeline article:before {
+  display: block;
+  content: '';
+  border: 0.3rem solid #999;
+  width: 2rem;;
+  height: 2rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 0; left: -0.75rem;
+  background: lightblue;
+  
+}
+
+.timeline article:nth-child(even) {
+  right: 40vw;
+  margin-top: -5rem;
+  text-align: right;
+  padding: 0 3rem 1rem 1rem;
+}
+
+.timeline article:nth-child(even):before {
+  background: lightpink;
+  left: inherit;
+  right: -1.25rem; 
+}

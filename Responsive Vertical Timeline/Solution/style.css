@@ -1,0 +1,9 @@
+@import url('reset.css');
+@import url("typography.css");
+@import url("timeline.css");
+@import url("buttons.css");
+
+body {
+	padding: 2rem 2rem;
+	background: linear-gradient(to left, #BEC0C2, #B3B6B5, #7D7D7A)
+}
